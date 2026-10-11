@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Inherit from S666LN device
 $(call inherit-product, device/itel/S666LN/device.mk)
 
 BOARD_VENDOR := Itel
-PRODUCT_NAME := lineage_S666LN
+PRODUCT_NAME := voltage_S666LN
 PRODUCT_DEVICE := S666LN
 PRODUCT_MANUFACTURER := ITEL
 PRODUCT_BRAND := Itel
