@@ -13,7 +13,7 @@ git clone -b lineage-23.2 https://github.com/arundaya-project/vendor_itel_S666LN
 git clone -b sixteen https://github.com/MillenniumOSS/android_hardware_mediatek hardware/mediatek
 
 #Clone Hardware Millenium Tree
-git clone https://github.com/MillenniumOSS/hardware_millennium -b sixteen-no_vndk hardware/millennium
+git clone https://github.com/MillenniumOSS/android_hardware_millennium -b sixteen-no_vndk hardware/millennium
 
 #Clone Millenium IMS Tree
 git clone https://github.com/MillenniumOSS/android_vendor_mediatek_ims -b sixteen-oem vendor/mediatek/ims
